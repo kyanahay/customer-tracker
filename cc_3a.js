@@ -30,11 +30,11 @@ customers.push({
   email: "ria.mohammed@edu.com",
   purchases: ["Phone Case", "Screen Protector"]
 });
-console.log("After adding a new customer:", customers);
+console.log("Customers after adding a new customer:", customers);
 
 
 customers.shift();
-console.log("Customers after shift():", customers);
+console.log("Customers after removing the first customer:", customers);
 
 
 // Update the email of one existing customer
