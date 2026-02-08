@@ -30,11 +30,12 @@ customers.push({
   email: "ria.mohammed@edu.com",
   purchases: ["Phone Case", "Screen Protector"]
 });
-
 console.log("After adding a new customer:", customers);
-const removedCustomer = customers.shift();
 
+
+const removedCustomer = customers.shift();
 console.log("Customers after shift():", customers);
+
 
 // Update the email of one existing customer
 customers[0].email = "devon.charles233@edu.com";
