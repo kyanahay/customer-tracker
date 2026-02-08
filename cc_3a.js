@@ -33,7 +33,7 @@ customers.push({
 console.log("After adding a new customer:", customers);
 
 
-const removedCustomer = customers.shift();
+customers.shift();
 console.log("Customers after shift():", customers);
 
 
